@@ -1,0 +1,4 @@
+rootProject.name = 'rediscommunication'
+include 'rediscommunication-api'
+include 'rediscommunication-test'
+

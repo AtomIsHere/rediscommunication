@@ -1,0 +1,5 @@
+main: com.github.atomishere.rediscommunication.test.spigot.SpigotTest
+name: RedisCommunication-Test
+version: 1.0.0
+author: AtomIsHere
+depends: [RedisCommunication]

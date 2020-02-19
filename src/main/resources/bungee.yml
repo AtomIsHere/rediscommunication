@@ -1,0 +1,5 @@
+main: com.github.atomishere.rediscommunication.bungee.RedisCommunicationBungee
+name: RedisCommunication
+version: 1.0.0
+author: AtomIsHere
+description: Two way communication with bungee and spigot using Redis's pub/sub abilities. - SPIGOT

@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.atomishere'
+version '1.0.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+
+    maven {
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+
+        content {
+            includeGroup 'org.bukkit'
+            includeGroup 'org.spigotmc'
+        }
+    }
+
+    maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.14.4-R0.1-SNAPSHOT'
+    compileOnly 'net.md-5:bungeecord-api:1.14-SNAPSHOT'
+
+    compileOnly project(":rediscommunication-api")
+
+    compileOnly 'redis.clients:jedis:2.8.1'
+    compileOnly 'com.fasterxml.jackson.core:jackson-databind:2.10.0'
+
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
+}

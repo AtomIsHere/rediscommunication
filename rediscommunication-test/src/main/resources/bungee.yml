@@ -1,0 +1,5 @@
+main: com.github.atomishere.rediscommunication.test.bungee.BungeeTest
+name: RedisCommunication-Test
+version: 1.0.0
+author: AtomIsHere
+depends: [RedisCommunication]

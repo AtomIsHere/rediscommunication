@@ -1,0 +1,5 @@
+redis_host: 127.0.0.1 # Redis's ip to connect to.
+redis_port: 6379 # Redis's port to connect to.
+redis_timeout: 2000 # Time it takes for a timeout.
+
+#redis_password: {password_here} - If a password is required uncomment this line and enter the password.

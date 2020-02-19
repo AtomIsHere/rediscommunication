@@ -1,0 +1,12 @@
+.gradle/
+.idea/
+.build/
+gradle/
+
+# Project exclude paths
+/build/
+/build/classes/java/main/
+/rediscommunication-api/build/
+/rediscommunication-api/build/classes/java/main/
+/rediscommunication-test/build/
+/rediscommunication-test/build/classes/java/main/
